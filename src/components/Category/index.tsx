@@ -1,9 +1,10 @@
 import { Flex, Stack } from '@chakra-ui/react'
-import { CategoryItem } from './CategoryItem';
+import CategoryItem from './CategoryItem';
 
 export function Category() {
   return (
     <Flex
+      as="section"
       width="100%"
       maxW={1140}
       mx="auto"
@@ -19,11 +20,11 @@ export function Category() {
         align="center"
         m="auto"
       >
-        <CategoryItem title="vida noturna" icon="/images/cocktail.svg" />
-        <CategoryItem title="praia" icon="/images/surf.svg" />
-        <CategoryItem title="moderno" icon="/images/building.svg" />
-        <CategoryItem title="clássico" icon="/images/museum.svg" />
-        <CategoryItem title="e mais..." icon="/images/earth.svg" />
+        <CategoryItem text="vida noturna" image="/images/cocktail.svg" />
+        <CategoryItem text="praia" image="/images/surf.svg" />
+        <CategoryItem text="moderno" image="/images/building.svg" />
+        <CategoryItem text="clássico" image="/images/museum.svg" />
+        <CategoryItem text="e mais..." image="/images/earth.svg" />
       </Stack>
     </Flex>
   );

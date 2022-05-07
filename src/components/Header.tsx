@@ -9,7 +9,7 @@ export function Header() {
       justify="center"
     >
       <Image
-        src='/images/Logo.png'
+        src='/images/logo.png'
         alt='Worldtrip'
         w={185}
       />
