@@ -8,7 +8,7 @@ export function Category() {
       width="100%"
       maxW={1140}
       mx="auto"
-      my="80px"
+      my={["20px", "80px"]}
       position="relative"
       justify="center"
       pt="9"
