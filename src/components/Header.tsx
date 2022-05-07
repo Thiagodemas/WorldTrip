@@ -1,18 +1,46 @@
-import { Flex, Image, Box } from '@chakra-ui/react'
+import { Center, Icon, Image, Link as ChakraLink, useBreakpointValue } from "@chakra-ui/react";
+import Link from 'next/link'
+import { useRouter } from "next/router";
+import { FiChevronLeft } from "react-icons/fi";
 
+interface HeaderProps {
+  hasBackLink?: boolean;
+}
 
-export function Header() {
+export function Header({ hasBackLink = false }: HeaderProps) {
+  const { asPath } = useRouter()
+
+  if (asPath !== "/") {
+    hasBackLink = true
+  }
+
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true,
+  })
+
   return (
-    <Flex
-      h={100}
-      align="center"
-      justify="center"
+    <Center
+      w='100%'
+      h={isWideVersion ? '100' : '50'}
+      maxW={1240}
+      mx='auto'
+      px={['4', '10']}
+      position='relative'
     >
+      {hasBackLink && (
+        <Link href='/'>
+          <ChakraLink position='absolute' left={['16px', '40px']}>
+            <Icon as={FiChevronLeft} fontSize={["1rem", "2rem"]} color='black' />
+          </ChakraLink>
+        </Link>
+      )}
+
       <Image
         src='/images/logo.png'
-        alt='Worldtrip'
-        w={185}
+        alt='World Trip'
+        w={!isWideVersion && '81px'}
       />
-    </Flex>
+    </Center>
   )
 }

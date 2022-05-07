@@ -13,42 +13,42 @@
         {
           "id": 1,
           "name": "Reino Unido",
-          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197374.svg?token=exp=1617570536~hmac=b58a488269cd97dafcfb394893bb5feb",
+          "flag": "",
           "capital": "Londres",
           "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80"
         },
         {
           "id": 2,
           "name": "França",
-          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197560.svg?token=exp=1617570868~hmac=cda5987318239ed584162b9ba936bdb6",
+          "flag": "",
           "capital": "Paris",
           "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=707&q=80"
         },
         {
           "id": 3,
           "name": "Itália",
-          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197626.svg?token=exp=1617570899~hmac=4fe7d5d4a4a40e6bee3c379987b1ebba",
+          "flag": "",
           "capital": "Roma",
           "image": "https://images.unsplash.com/photo-1597177724434-245eb4d730e7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
         },
         {
           "id": 4,
           "name": "República Tcheca",
-          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197576.svg?token=exp=1617570956~hmac=aa8c2903c5d99b5b5dfbe7273015922e",
+          "flag": "",
           "capital": "Praga",
           "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
         },
         {
           "id": 5,
           "name": "Holanda",
-          "flag": "https://www.flaticon.com/svg/vstatic/svg/323/323275.svg?token=exp=1617571078~hmac=0183208ca3bd8f4615bb9878e439c2a7",
+          "flag": "",
           "capital": "Amsterdã",
           "image": "https://images.unsplash.com/photo-1594759876531-d12b5e9e2453?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
         },
         {
           "id": 5,
           "name": "Portugal",
-          "flag": "https://www.flaticon.com/svg/vstatic/svg/3909/3909361.svg?token=exp=1617571144~hmac=8b5404e42043948bfd043e8f18c19bb9",
+          "flag": "",
           "capital": "Lisboa",
           "image": "https://images.unsplash.com/photo-1580323956656-26bbb1206e34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=865&q=80"
         }
